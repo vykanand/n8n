@@ -1,0 +1,17 @@
+# Tell n8n to use PostgreSQL
+DB_TYPE=postgresdb
+
+# Supabase PostgreSQL credentials
+DB_POSTGRESDB_HOST=rjjrdposgqxwsytdqizw.supabase.co
+DB_POSTGRESDB_PORT=5432
+DB_POSTGRESDB_DATABASE=postgres
+DB_POSTGRESDB_USER=postgres
+DB_POSTGRESDB_PASSWORD=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJqanJkcG9zZ3F4d3N5dGRxaXp3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE3MzYwMTksImV4cCI6MjA2NzMxMjAxOX0.8qnqdAcFMfUojy64HCU1mxJilXIux6gqjZzFWlDSZZA   # You set this in Supabase
+
+# Supabase requires SSL
+DB_POSTGRESDB_SSL_REJECT_UNAUTHORIZED=false
+
+# Optional Basic Auth (for n8n login)
+N8N_BASIC_AUTH_ACTIVE=true
+N8N_BASIC_AUTH_USER=admin
+N8N_BASIC_AUTH_PASSWORD=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJqanJkcG9zZ3F4d3N5dGRxaXp3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE3MzYwMTksImV4cCI6MjA2NzMxMjAxOX0.8qnqdAcFMfUojy64HCU1mxJilXIux6gqjZzFWlDSZZA
