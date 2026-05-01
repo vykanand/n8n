@@ -1,0 +1,12 @@
+{
+  "name": "n8n-custom",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "echo \"This project runs using Docker Compose: docker-compose up\""
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "googleapis": "^150.0.1",
+    "open": "^10.1.2"
+  }
+}
