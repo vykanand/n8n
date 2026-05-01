@@ -2,7 +2,7 @@
   "name": "n8n-custom",
   "version": "1.0.0",
   "scripts": {
-    "start": "n8n start"
+    "start": "echo \"This project runs using Docker Compose: docker-compose up\""
   },
   "dependencies": {
     "express": "^5.1.0",
