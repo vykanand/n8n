@@ -5,13 +5,6 @@ ENV N8N_BASIC_AUTH_ACTIVE=false \
     N8N_HOST=0.0.0.0 \
     N8N_PORT=5678 \
     TZ=UTC \
-    NODE_ENV=production
-
-# Create data directory
-RUN mkdir -p /home/node/.n8n
-
-# Expose port
-EXPOSE 5678
-
-# Start n8n
-CMD ["n8n", "start"]
+    NODE_ENV=production \
+    WEBHOOK_URL=https://client1.appsthink.com:5678/ \
+    N8N_ENCRYPTION_KEY=client1
